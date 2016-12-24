@@ -1,0 +1,10 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">associatassociate</text>
+    <text class="page__desc">关联人</text>
+  </view>
+  <view class="page__hd">
+    <text class="page__title">associatassociate</text>
+    <text class="page__desc">关联人</text>
+  </view>
+</view>

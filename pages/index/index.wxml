@@ -1,0 +1,29 @@
+<view>
+  <view class="index">
+    <view class="head">
+      <view class="title">小程序组件</view>
+      <view class="desc">这里就当前已支持的组件进行演示</view>
+    </view>
+
+    <view class="body">
+      <view class="widgets">
+
+        <view class="test__2">
+          <view class="test__1">{{test.test}}</view>
+          <view class="test__1">{{test2.test}}</view>
+        </view>
+
+        <view class="main">
+          <block wx:for-items="{{main}}">
+            <navigator url="component-pages/{{item.id}}/{{item.id}}?type={{item.title}}">
+              <view class="item">
+                <text>{{item.title}}</text>
+              </view>
+            </navigator>
+          </block>
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>
